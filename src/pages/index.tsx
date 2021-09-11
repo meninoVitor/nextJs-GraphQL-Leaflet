@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 interface Props {
   title: string
 }
-const teste = 'jhgskjgs'
+
 export default function Home({ title = 'hello world!' }: Props) {
   return (
     <div className={styles.container}>

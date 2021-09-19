@@ -1,5 +1,5 @@
-import Main from '../componnents/Main'
+import Main from 'components/Main/index'
 
 export default function Home() {
-  return <Main>React avançado</Main>
+  return <Main />
 }

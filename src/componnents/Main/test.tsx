@@ -4,9 +4,10 @@ import Main from './index'
 
 describe('<Main>React avançado</Main>', () => {
   it('should render a header', () => {
-    render(<Main>React avançado</Main>)
+    const { container } = render(<Main />)
     expect(
-      screen.getByRole('heading', { name: 'React avançado' })
+      screen.getByRole('heading', { name: 'React Avançado' })
     ).toBeInTheDocument()
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

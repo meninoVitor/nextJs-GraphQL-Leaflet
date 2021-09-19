@@ -4,7 +4,7 @@ const GlobalStyle = styled.createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 62.5%;
   }
   html,
   body,

@@ -7,5 +7,4 @@ module.exports = withPWA({
     dest: 'public',
     disable: !isProduction
   }
-  // other next config
 })
